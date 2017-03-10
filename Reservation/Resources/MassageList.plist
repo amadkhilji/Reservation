@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>massageID</key>
+		<string>1</string>
+		<key>title</key>
+		<string>Mother&apos;s Day</string>
+		<key>type</key>
+		<string>Massage</string>
+		<key>description</key>
+		<string>Massage focused on the deepest layer of muscles to target knots and release chronic muscle tension.</string>
+		<key>price</key>
+		<integer>100</integer>
+		<key>durationInMinutes</key>
+		<integer>60</integer>
+		<key>maxPartySize</key>
+		<integer>12</integer>
+		<key>isActive</key>
+		<false/>
+		<key>discountInPercentage</key>
+		<integer>50</integer>
+		<key>offerStartDate</key>
+		<string>2017-05-02T04:38:31Z</string>
+		<key>offerEndDate</key>
+		<string>2017-05-17T04:39:14Z</string>
+		<key>backgroundImage</key>
+		<string>mother_day_bg.png</string>
+	</dict>
+	<dict>
+		<key>massageID</key>
+		<string>1</string>
+		<key>title</key>
+		<string>Swedish</string>
+		<key>type</key>
+		<string>Massage</string>
+		<key>description</key>
+		<string>Massage focused on the deepest layer of muscles to target knots and release chronic muscle tension.</string>
+		<key>price</key>
+		<integer>100</integer>
+		<key>durationInMinutes</key>
+		<integer>60</integer>
+		<key>maxPartySize</key>
+		<integer>12</integer>
+		<key>isActive</key>
+		<false/>
+		<key>discountInPercentage</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>massageID</key>
+		<string>2</string>
+		<key>title</key>
+		<string>Deep Tissue</string>
+		<key>type</key>
+		<string>Massage</string>
+		<key>description</key>
+		<string>Massage focused on the deepest layer of muscles to target knots and release chronic muscle tension.</string>
+		<key>price</key>
+		<integer>80</integer>
+		<key>durationInMinutes</key>
+		<integer>60</integer>
+		<key>maxPartySize</key>
+		<integer>12</integer>
+		<key>isActive</key>
+		<false/>
+		<key>discountInPercentage</key>
+		<integer>10</integer>
+		<key>offerStartDate</key>
+		<string>2017-04-11T04:38:31Z</string>
+		<key>offerEndDate</key>
+		<string>2017-04-29T04:39:14Z</string>
+		<key>backgroundImage</key>
+		<string>deep_tissue_bg.png</string>
+	</dict>
+	<dict>
+		<key>massageID</key>
+		<string>3</string>
+		<key>title</key>
+		<string>Hot Stone</string>
+		<key>type</key>
+		<string>Massage</string>
+		<key>description</key>
+		<string>Massage focused on the deepest layer of muscles to target knots and release chronic muscle tension.</string>
+		<key>price</key>
+		<integer>120</integer>
+		<key>durationInMinutes</key>
+		<integer>60</integer>
+		<key>maxPartySize</key>
+		<integer>12</integer>
+		<key>isActive</key>
+		<true/>
+		<key>discountInPercentage</key>
+		<integer>20</integer>
+		<key>offerStartDate</key>
+		<string>2017-05-02T04:38:31Z</string>
+		<key>offerEndDate</key>
+		<string>2017-05-17T04:39:14Z</string>
+		<key>backgroundImage</key>
+		<string>hot_stone_bg.png</string>
+		<key>icon</key>
+		<string>hot_stone_icon.png</string>
+	</dict>
+	<dict>
+		<key>massageID</key>
+		<string>4</string>
+		<key>title</key>
+		<string>Reflexology</string>
+		<key>type</key>
+		<string>Massage</string>
+		<key>description</key>
+		<string>Massage focused on the deepest layer of muscles to target knots and release chronic muscle tension.</string>
+		<key>price</key>
+		<integer>100</integer>
+		<key>durationInMinutes</key>
+		<integer>60</integer>
+		<key>maxPartySize</key>
+		<integer>12</integer>
+		<key>isActive</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>massageID</key>
+		<string>5</string>
+		<key>title</key>
+		<string>Trigger Point Therapy</string>
+		<key>type</key>
+		<string>Massage</string>
+		<key>description</key>
+		<string>Massage focused on the deepest layer of muscles to target knots and release chronic muscle tension.</string>
+		<key>price</key>
+		<integer>150</integer>
+		<key>durationInMinutes</key>
+		<integer>60</integer>
+		<key>maxPartySize</key>
+		<integer>12</integer>
+		<key>isActive</key>
+		<false/>
+	</dict>
+</array>
+</plist>

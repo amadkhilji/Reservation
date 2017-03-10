@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D17165E1E6F835D00E4FF46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D17165D1E6F835D00E4FF46 /* main.m */; };
+		7D1716611E6F835D00E4FF46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1716601E6F835D00E4FF46 /* AppDelegate.m */; };
+		7D1716671E6F835D00E4FF46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1716651E6F835D00E4FF46 /* Main.storyboard */; };
+		7D1716691E6F835D00E4FF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1716681E6F835D00E4FF46 /* Assets.xcassets */; };
+		7D17166C1E6F835D00E4FF46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D17166A1E6F835D00E4FF46 /* LaunchScreen.storyboard */; };
+		7D6A88AC1E6FDDE600BE30F9 /* Reservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6A88AB1E6FDDE600BE30F9 /* Reservation.m */; };
+		7D6A88AF1E6FDDF400BE30F9 /* Massage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6A88AE1E6FDDF400BE30F9 /* Massage.m */; };
+		7D6A88B41E7087FF00BE30F9 /* deep_tissue_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6A88B11E7087FF00BE30F9 /* deep_tissue_bg.png */; };
+		7D6A88B51E7087FF00BE30F9 /* hot_stone_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6A88B21E7087FF00BE30F9 /* hot_stone_bg.png */; };
+		7D6A88B61E7087FF00BE30F9 /* mother_day_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6A88B31E7087FF00BE30F9 /* mother_day_bg.png */; };
+		7D6A88B81E70899600BE30F9 /* hot_stone_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6A88B71E70899600BE30F9 /* hot_stone_icon.png */; };
+		7D6A88BB1E7089F900BE30F9 /* SPAServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6A88BA1E7089F900BE30F9 /* SPAServiceViewController.m */; };
+		7D6A88BE1E70DCE700BE30F9 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6A88BD1E70DCE700BE30F9 /* ScheduleViewController.m */; };
+		7D6A88C71E710E1300BE30F9 /* day_box_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6A88C51E710E1300BE30F9 /* day_box_selected.png */; };
+		7D6A88C81E710E1300BE30F9 /* day_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6A88C61E710E1300BE30F9 /* day_box.png */; };
+		7D6A88CB1E710E1D00BE30F9 /* time_box_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6A88C91E710E1D00BE30F9 /* time_box_selected.png */; };
+		7D6A88CC1E710E1D00BE30F9 /* time_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6A88CA1E710E1D00BE30F9 /* time_box.png */; };
+		7D6A88CF1E711B2000BE30F9 /* DayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6A88CE1E711B2000BE30F9 /* DayCell.m */; };
+		7D82D4B11E713508006D2A1E /* TimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D82D4B01E713508006D2A1E /* TimeCell.m */; };
+		7D9AC33A1E6F922900B989C9 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9AC3391E6F922900B989C9 /* SplashViewController.m */; };
+		7D9AC33D1E6F932D00B989C9 /* MyReservationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9AC33C1E6F932D00B989C9 /* MyReservationsViewController.m */; };
+		7D9AC3411E6F998D00B989C9 /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9AC3401E6F998D00B989C9 /* AppInfo.m */; };
+		7D9AC3431E6FC52100B989C9 /* MassageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D9AC3421E6FC52100B989C9 /* MassageList.plist */; };
+		7DDA5B381E71ED2000166EC0 /* ReservationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDA5B371E71ED2000166EC0 /* ReservationCell.m */; };
+		CBC73C39729BA8A7E5CDABFF /* libPods-Reservation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F09D923EF719BB3ECB866D1B /* libPods-Reservation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D1716591E6F835D00E4FF46 /* Reservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D17165D1E6F835D00E4FF46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D17165F1E6F835D00E4FF46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D1716601E6F835D00E4FF46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D1716661E6F835D00E4FF46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D1716681E6F835D00E4FF46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D17166B1E6F835D00E4FF46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D17166D1E6F835D00E4FF46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6A88AA1E6FDDE600BE30F9 /* Reservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reservation.h; sourceTree = "<group>"; };
+		7D6A88AB1E6FDDE600BE30F9 /* Reservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reservation.m; sourceTree = "<group>"; };
+		7D6A88AD1E6FDDF400BE30F9 /* Massage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Massage.h; sourceTree = "<group>"; };
+		7D6A88AE1E6FDDF400BE30F9 /* Massage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Massage.m; sourceTree = "<group>"; };
+		7D6A88B01E6FF25200BE30F9 /* Reservation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reservation.entitlements; sourceTree = "<group>"; };
+		7D6A88B11E7087FF00BE30F9 /* deep_tissue_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deep_tissue_bg.png; sourceTree = "<group>"; };
+		7D6A88B21E7087FF00BE30F9 /* hot_stone_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hot_stone_bg.png; sourceTree = "<group>"; };
+		7D6A88B31E7087FF00BE30F9 /* mother_day_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mother_day_bg.png; sourceTree = "<group>"; };
+		7D6A88B71E70899600BE30F9 /* hot_stone_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hot_stone_icon.png; sourceTree = "<group>"; };
+		7D6A88B91E7089F900BE30F9 /* SPAServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAServiceViewController.h; sourceTree = "<group>"; };
+		7D6A88BA1E7089F900BE30F9 /* SPAServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAServiceViewController.m; sourceTree = "<group>"; };
+		7D6A88BC1E70DCE700BE30F9 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		7D6A88BD1E70DCE700BE30F9 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		7D6A88C51E710E1300BE30F9 /* day_box_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day_box_selected.png; sourceTree = "<group>"; };
+		7D6A88C61E710E1300BE30F9 /* day_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day_box.png; sourceTree = "<group>"; };
+		7D6A88C91E710E1D00BE30F9 /* time_box_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time_box_selected.png; sourceTree = "<group>"; };
+		7D6A88CA1E710E1D00BE30F9 /* time_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time_box.png; sourceTree = "<group>"; };
+		7D6A88CD1E711B2000BE30F9 /* DayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayCell.h; sourceTree = "<group>"; };
+		7D6A88CE1E711B2000BE30F9 /* DayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayCell.m; sourceTree = "<group>"; };
+		7D82D4AF1E713508006D2A1E /* TimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeCell.h; sourceTree = "<group>"; };
+		7D82D4B01E713508006D2A1E /* TimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeCell.m; sourceTree = "<group>"; };
+		7D9AC3381E6F922900B989C9 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		7D9AC3391E6F922900B989C9 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		7D9AC33B1E6F932D00B989C9 /* MyReservationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReservationsViewController.h; sourceTree = "<group>"; };
+		7D9AC33C1E6F932D00B989C9 /* MyReservationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReservationsViewController.m; sourceTree = "<group>"; };
+		7D9AC33F1E6F998D00B989C9 /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
+		7D9AC3401E6F998D00B989C9 /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
+		7D9AC3421E6FC52100B989C9 /* MassageList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MassageList.plist; sourceTree = "<group>"; };
+		7D9AC3441E6FC53E00B989C9 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		7D9AC3451E6FC5EA00B989C9 /* Reservation-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reservation-Prefix.pch"; sourceTree = "<group>"; };
+		7DDA5B361E71ED2000166EC0 /* ReservationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservationCell.h; sourceTree = "<group>"; };
+		7DDA5B371E71ED2000166EC0 /* ReservationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationCell.m; sourceTree = "<group>"; };
+		88E0887739DBB14613A60B24 /* Pods-Reservation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reservation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reservation/Pods-Reservation.release.xcconfig"; sourceTree = "<group>"; };
+		A21E9428B18AED0AA6681C93 /* Pods-Reservation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reservation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reservation/Pods-Reservation.debug.xcconfig"; sourceTree = "<group>"; };
+		F09D923EF719BB3ECB866D1B /* libPods-Reservation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reservation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D1716561E6F835D00E4FF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC73C39729BA8A7E5CDABFF /* libPods-Reservation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D1716501E6F835D00E4FF46 = {
+			isa = PBXGroup;
+			children = (
+				7D17165B1E6F835D00E4FF46 /* Reservation */,
+				7D17165A1E6F835D00E4FF46 /* Products */,
+				FC4313A0BE8CBA850166BA22 /* Pods */,
+				92EBFF502D2217758BC96A73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D17165A1E6F835D00E4FF46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D1716591E6F835D00E4FF46 /* Reservation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D17165B1E6F835D00E4FF46 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				7D17165F1E6F835D00E4FF46 /* AppDelegate.h */,
+				7D1716601E6F835D00E4FF46 /* AppDelegate.m */,
+				7D1716781E6F843F00E4FF46 /* Storyboard */,
+				7D1716761E6F83F300E4FF46 /* ViewControllers */,
+				7D1716731E6F83F300E4FF46 /* CustomViews */,
+				7D1716741E6F83F300E4FF46 /* DataModels */,
+				7D1716751E6F83F300E4FF46 /* SharedClasses */,
+				7D1716771E6F842300E4FF46 /* Resources */,
+				7D1716681E6F835D00E4FF46 /* Assets.xcassets */,
+				7D17165C1E6F835D00E4FF46 /* Supporting Files */,
+			);
+			path = Reservation;
+			sourceTree = "<group>";
+		};
+		7D17165C1E6F835D00E4FF46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D6A88B01E6FF25200BE30F9 /* Reservation.entitlements */,
+				7D17166A1E6F835D00E4FF46 /* LaunchScreen.storyboard */,
+				7D9AC3451E6FC5EA00B989C9 /* Reservation-Prefix.pch */,
+				7D17166D1E6F835D00E4FF46 /* Info.plist */,
+				7D17165D1E6F835D00E4FF46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D1716731E6F83F300E4FF46 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				7D6A88CD1E711B2000BE30F9 /* DayCell.h */,
+				7D6A88CE1E711B2000BE30F9 /* DayCell.m */,
+				7D82D4AF1E713508006D2A1E /* TimeCell.h */,
+				7D82D4B01E713508006D2A1E /* TimeCell.m */,
+				7DDA5B361E71ED2000166EC0 /* ReservationCell.h */,
+				7DDA5B371E71ED2000166EC0 /* ReservationCell.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		7D1716741E6F83F300E4FF46 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				7D6A88AA1E6FDDE600BE30F9 /* Reservation.h */,
+				7D6A88AB1E6FDDE600BE30F9 /* Reservation.m */,
+				7D6A88AD1E6FDDF400BE30F9 /* Massage.h */,
+				7D6A88AE1E6FDDF400BE30F9 /* Massage.m */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		7D1716751E6F83F300E4FF46 /* SharedClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7D9AC3441E6FC53E00B989C9 /* AppConstants.h */,
+				7D9AC33E1E6F998D00B989C9 /* AppInfo */,
+			);
+			path = SharedClasses;
+			sourceTree = "<group>";
+		};
+		7D1716761E6F83F300E4FF46 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D9AC3381E6F922900B989C9 /* SplashViewController.h */,
+				7D9AC3391E6F922900B989C9 /* SplashViewController.m */,
+				7D9AC33B1E6F932D00B989C9 /* MyReservationsViewController.h */,
+				7D9AC33C1E6F932D00B989C9 /* MyReservationsViewController.m */,
+				7D6A88B91E7089F900BE30F9 /* SPAServiceViewController.h */,
+				7D6A88BA1E7089F900BE30F9 /* SPAServiceViewController.m */,
+				7D6A88BC1E70DCE700BE30F9 /* ScheduleViewController.h */,
+				7D6A88BD1E70DCE700BE30F9 /* ScheduleViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7D1716771E6F842300E4FF46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D6A88C91E710E1D00BE30F9 /* time_box_selected.png */,
+				7D6A88CA1E710E1D00BE30F9 /* time_box.png */,
+				7D6A88C51E710E1300BE30F9 /* day_box_selected.png */,
+				7D6A88C61E710E1300BE30F9 /* day_box.png */,
+				7D6A88B71E70899600BE30F9 /* hot_stone_icon.png */,
+				7D6A88B11E7087FF00BE30F9 /* deep_tissue_bg.png */,
+				7D6A88B21E7087FF00BE30F9 /* hot_stone_bg.png */,
+				7D6A88B31E7087FF00BE30F9 /* mother_day_bg.png */,
+				7D9AC3421E6FC52100B989C9 /* MassageList.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7D1716781E6F843F00E4FF46 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7D1716651E6F835D00E4FF46 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		7D9AC33E1E6F998D00B989C9 /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				7D9AC33F1E6F998D00B989C9 /* AppInfo.h */,
+				7D9AC3401E6F998D00B989C9 /* AppInfo.m */,
+			);
+			path = AppInfo;
+			sourceTree = "<group>";
+		};
+		92EBFF502D2217758BC96A73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F09D923EF719BB3ECB866D1B /* libPods-Reservation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC4313A0BE8CBA850166BA22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A21E9428B18AED0AA6681C93 /* Pods-Reservation.debug.xcconfig */,
+				88E0887739DBB14613A60B24 /* Pods-Reservation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D1716581E6F835D00E4FF46 /* Reservation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1716701E6F835D00E4FF46 /* Build configuration list for PBXNativeTarget "Reservation" */;
+			buildPhases = (
+				742BB58DAF85F91FF569901B /* [CP] Check Pods Manifest.lock */,
+				7D1716551E6F835D00E4FF46 /* Sources */,
+				7D1716561E6F835D00E4FF46 /* Frameworks */,
+				7D1716571E6F835D00E4FF46 /* Resources */,
+				CF2D29E45CECA62875F80CA6 /* [CP] Embed Pods Frameworks */,
+				9211CAA1482680D38D4EF44C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reservation;
+			productName = Reservation;
+			productReference = 7D1716591E6F835D00E4FF46 /* Reservation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D1716511E6F835D00E4FF46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "GApp Studios";
+				TargetAttributes = {
+					7D1716581E6F835D00E4FF46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AZK9J63CG2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7D1716541E6F835D00E4FF46 /* Build configuration list for PBXProject "Reservation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D1716501E6F835D00E4FF46;
+			productRefGroup = 7D17165A1E6F835D00E4FF46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D1716581E6F835D00E4FF46 /* Reservation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D1716571E6F835D00E4FF46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6A88C81E710E1300BE30F9 /* day_box.png in Resources */,
+				7D6A88B81E70899600BE30F9 /* hot_stone_icon.png in Resources */,
+				7D6A88CC1E710E1D00BE30F9 /* time_box.png in Resources */,
+				7D6A88B51E7087FF00BE30F9 /* hot_stone_bg.png in Resources */,
+				7D9AC3431E6FC52100B989C9 /* MassageList.plist in Resources */,
+				7D6A88B41E7087FF00BE30F9 /* deep_tissue_bg.png in Resources */,
+				7D17166C1E6F835D00E4FF46 /* LaunchScreen.storyboard in Resources */,
+				7D6A88CB1E710E1D00BE30F9 /* time_box_selected.png in Resources */,
+				7D1716691E6F835D00E4FF46 /* Assets.xcassets in Resources */,
+				7D6A88C71E710E1300BE30F9 /* day_box_selected.png in Resources */,
+				7D1716671E6F835D00E4FF46 /* Main.storyboard in Resources */,
+				7D6A88B61E7087FF00BE30F9 /* mother_day_bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		742BB58DAF85F91FF569901B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9211CAA1482680D38D4EF44C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reservation/Pods-Reservation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF2D29E45CECA62875F80CA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reservation/Pods-Reservation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D1716551E6F835D00E4FF46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6A88AC1E6FDDE600BE30F9 /* Reservation.m in Sources */,
+				7D82D4B11E713508006D2A1E /* TimeCell.m in Sources */,
+				7DDA5B381E71ED2000166EC0 /* ReservationCell.m in Sources */,
+				7D6A88BB1E7089F900BE30F9 /* SPAServiceViewController.m in Sources */,
+				7D6A88AF1E6FDDF400BE30F9 /* Massage.m in Sources */,
+				7D9AC3411E6F998D00B989C9 /* AppInfo.m in Sources */,
+				7D1716611E6F835D00E4FF46 /* AppDelegate.m in Sources */,
+				7D17165E1E6F835D00E4FF46 /* main.m in Sources */,
+				7D6A88BE1E70DCE700BE30F9 /* ScheduleViewController.m in Sources */,
+				7D9AC33A1E6F922900B989C9 /* SplashViewController.m in Sources */,
+				7D6A88CF1E711B2000BE30F9 /* DayCell.m in Sources */,
+				7D9AC33D1E6F932D00B989C9 /* MyReservationsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D1716651E6F835D00E4FF46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D1716661E6F835D00E4FF46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D17166A1E6F835D00E4FF46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D17166B1E6F835D00E4FF46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D17166E1E6F835D00E4FF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D17166F1E6F835D00E4FF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D1716711E6F835D00E4FF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21E9428B18AED0AA6681C93 /* Pods-Reservation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Reservation/Reservation.entitlements;
+				DEVELOPMENT_TEAM = AZK9J63CG2;
+				GCC_PREFIX_HEADER = "Reservation/Reservation-Prefix.pch";
+				INFOPLIST_FILE = Reservation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gappstudios.Reservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D1716721E6F835D00E4FF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E0887739DBB14613A60B24 /* Pods-Reservation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Reservation/Reservation.entitlements;
+				DEVELOPMENT_TEAM = AZK9J63CG2;
+				GCC_PREFIX_HEADER = "Reservation/Reservation-Prefix.pch";
+				INFOPLIST_FILE = Reservation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gappstudios.Reservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D1716541E6F835D00E4FF46 /* Build configuration list for PBXProject "Reservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D17166E1E6F835D00E4FF46 /* Debug */,
+				7D17166F1E6F835D00E4FF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1716701E6F835D00E4FF46 /* Build configuration list for PBXNativeTarget "Reservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1716711E6F835D00E4FF46 /* Debug */,
+				7D1716721E6F835D00E4FF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D1716511E6F835D00E4FF46 /* Project object */;
+}

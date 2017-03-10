@@ -17,6 +17,16 @@ DerivedData/
 !default.perspectivev3
 xcuserdata/
 
+*~
+~*
+.DS_Store
+*--git-ignore
+_open_project.bash
+_build_xcode_project.bash
+*.xcodeproj/project.xcworkspace
+*.xcworkspace
+*.xcodeproj/xcuserdata
+*.xccheckout
 ## Other
 *.moved-aside
 *.xcuserstate
@@ -33,7 +43,8 @@ xcuserdata/
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
+Podfile.lock
 
 # Carthage
 #

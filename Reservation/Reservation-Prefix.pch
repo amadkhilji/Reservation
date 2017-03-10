@@ -1,0 +1,21 @@
+//
+//  Reservation-Prefix.pch
+//  Reservation
+//
+//  Created by Hafiz Amaduddin Ayub on 3/7/17.
+//  Copyright © 2017 GApp Studios. All rights reserved.
+//
+
+#ifndef Reservation_Prefix_pch
+#define Reservation_Prefix_pch
+
+@import Foundation;
+@import UIKit;
+
+#import "IonIcons.h"
+#import "AppConstants.h"
+#import "Massage.h"
+#import "Reservation.h"
+#import "AppInfo.h"
+
+#endif /* Reservation_Prefix_pch */
